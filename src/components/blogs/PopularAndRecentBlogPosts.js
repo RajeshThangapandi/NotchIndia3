@@ -71,7 +71,7 @@ export default () => {
     },
     {
       postImageSrc:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8iJLTB9gXeMeJB_hM7pMduIHmFEFUNo9xQw&s",
+        "https://ih1.redbubble.net/image.630145940.1568/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg",
       authorImageSrc:
         "https://getillustrations.b-cdn.net//photos/pack/3d-avatar-male_lg.png",
       title: "Construction of Vaigai River North Bank Road",
@@ -131,7 +131,7 @@ export default () => {
               {popularPosts.map((post, index) => (
                 <Post key={index} href={post.url} className="group" initial="rest" whileHover="hover" animate="rest">
                   <Image
-                    transition={{ duration: 0.3 }}
+                    
                     variants={postBackgroundSizeAnimation}
                     $imageSrc={post.postImageSrc}
                   />
